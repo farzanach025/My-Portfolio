@@ -15,7 +15,7 @@ function Particle() {
             },
           },
           color: {
-            value: "#adefd1", // Set particles color to red
+            value: "#adefd1", // Set particles color 
           },
           shape: {
             type: "circle", // Set particle shape to circle
