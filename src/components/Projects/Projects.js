@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import chatApp from "../../Assets/Projects/chatApp.png";
+import financeTracker from "../../Assets/Projects/financeTracker.png";
+import taskManager from "../../Assets/Projects/taskManager.png";
+import covid from "../../Assets/Projects/covid.png";
+import weatherApp from "../../Assets/Projects/weatherApp.png";
+import eCommerce from "../../Assets/Projects/eCommerce.png";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={covid}
               isBlog={false}
               title="Covid tracker"
               description="Retrieve and display up-to-date COVID-19 data, including the number of cases, recoveries, and deaths, either globally or for specific countries and regions."
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={eCommerce}
               isBlog={false}
               title="E-commerce Website"
               description=" Build an e-commerce website with features like product listing, shopping cart, secure payment integration, and user account management"
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={taskManager}
               isBlog={false}
               title="Task Management System"
               description=" A task management system is a tool or software designed to help individuals or teams organize, track, and manage their tasks and projects efficiently. It provides a platform where tasks can be created, assigned, prioritized, and tracked throughout their lifecycle"
@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={chatApp}
               isBlog={false}
               title="Real-time Chat Application"
               description="Created a real-time chat application with features like instant messaging, file sharing, and user authentication"
@@ -67,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={weatherApp}
               isBlog={false}
               title="Weather Application"
               description="The weather application developed in React.js allows users to fetch and display current weather information for a specific location. It utilizes the OpenWeatherMap API to retrieve data such as temperature and weather description. Users can input a location and get real-time weather updates easy"
@@ -78,7 +78,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={financeTracker}
               isBlog={false}
               title="Personal Finance Tracker"
               description="Developed a personal finance tracker that allows users to manage their income, expenses, budgets, and track financial goals."
