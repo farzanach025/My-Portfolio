@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.277a2a71.css",
+    "main.js": "/my-portfolio/static/js/main.18718002.js",
+    "static/js/415.4d6acbeb.chunk.js": "/my-portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Farzana_Hameed_Resume_SoftwareDeveloper.pdf": "/my-portfolio/static/media/Farzana_Hameed_Resume_SoftwareDeveloper.fb321bcb1a186f762b55.pdf",
+    "static/media/eCommerce.png": "/my-portfolio/static/media/eCommerce.9ff7790fd15d974a3d57.png",
+    "static/media/taskManager.png": "/my-portfolio/static/media/taskManager.03db7bfdb254563fa70a.png",
+    "static/media/covid.png": "/my-portfolio/static/media/covid.99e9c9234e80971b978e.png",
+    "static/media/financeTracker.png": "/my-portfolio/static/media/financeTracker.f2479c10bf72fc8e31b9.png",
+    "static/media/about.png": "/my-portfolio/static/media/about.adefbe7bb0919dd41d77.png",
+    "static/media/chatApp.png": "/my-portfolio/static/media/chatApp.70441a846a76d0032aa4.png",
+    "static/media/weatherApp.png": "/my-portfolio/static/media/weatherApp.e457a611576fbe1a4acd.png",
+    "static/media/home-main.svg": "/my-portfolio/static/media/home-main.255a32006fb6396dc08dd52e62a44b0e.svg",
+    "static/media/home-bg.jpg": "/my-portfolio/static/media/home-bg.013808078f8e8d0f61c8.jpg",
+    "static/media/avatar.svg": "/my-portfolio/static/media/avatar.d989ea713a9a3cae5f2bfec506935c78.svg",
+    "static/media/pre.svg": "/my-portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.277a2a71.css.map": "/my-portfolio/static/css/main.277a2a71.css.map",
+    "main.18718002.js.map": "/my-portfolio/static/js/main.18718002.js.map",
+    "415.4d6acbeb.chunk.js.map": "/my-portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.277a2a71.css",
+    "static/js/main.18718002.js"
+  ]
+}
