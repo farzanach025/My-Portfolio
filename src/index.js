@@ -1,4 +1,4 @@
-import React from "react";
+import React, { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import { HashRouter } from "react-router-dom";
 import "./index.css";
@@ -6,9 +6,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <HashRouter>
+  <StrictMode>
     <App />
-  </HashRouter>,
+  </StrictMode>,
   document.getElementById("root")
 );
 
