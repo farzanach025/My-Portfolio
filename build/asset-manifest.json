@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.d4919867.css",
-    "main.js": "/my-portfolio/static/js/main.a9efbd5b.js",
+    "main.js": "/my-portfolio/static/js/main.4688fbc8.js",
     "static/js/415.4d6acbeb.chunk.js": "/my-portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Farzana_Hameed_Resume_SoftwareDeveloper.pdf": "/my-portfolio/static/media/Farzana_Hameed_Resume_SoftwareDeveloper.fb321bcb1a186f762b55.pdf",
@@ -18,12 +18,12 @@
     "static/media/pre.svg": "/my-portfolio/static/media/pre.63f8ede38f85ac8f17be.svg",
     "index.html": "/my-portfolio/index.html",
     "main.d4919867.css.map": "/my-portfolio/static/css/main.d4919867.css.map",
-    "main.a9efbd5b.js.map": "/my-portfolio/static/js/main.a9efbd5b.js.map",
+    "main.4688fbc8.js.map": "/my-portfolio/static/js/main.4688fbc8.js.map",
     "415.4d6acbeb.chunk.js.map": "/my-portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4919867.css",
-    "static/js/main.a9efbd5b.js"
+    "static/js/main.4688fbc8.js"
   ]
 }
