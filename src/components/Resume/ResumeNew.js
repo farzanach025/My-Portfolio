@@ -10,10 +10,28 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [numPages, setNumPages] = useState(null);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
+
+  const handlePreviousPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const handleNextPage = () => {
+    if (currentPage < numPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+  };
 
   return (
     <div>
@@ -32,20 +50,31 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          <Document
+            file={pdf}
+            className="d-flex justify-content-center"
+            onLoadSuccess={onDocumentLoadSuccess}
+          >
+            <Page pageNumber={currentPage} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
+            onClick={handlePreviousPage}
+            disabled={currentPage === 1}
+            style={{ maxWidth: "120px", marginRight: "10px" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download CV
+            Previous
+          </Button>
+          <Button
+            variant="primary"
+            onClick={handleNextPage}
+            disabled={currentPage === numPages}
+            style={{ maxWidth: "120px" }}
+          >
+            Next
           </Button>
         </Row>
       </Container>
